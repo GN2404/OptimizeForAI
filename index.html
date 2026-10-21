@@ -3,79 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FindMyBiz — Get Recommended by AI Assistants</title>
-  <meta name="description" content="Help small businesses like restaurants and nail salons get recommended when customers ask ChatGPT, Claude, Grok or Google AI.">
+  <title>FindMyBiz — Get Recommended When Customers Ask AI</title>
+  <meta name="description" content="FindMyBiz helps small businesses like restaurants and nail salons get recommended when customers ask ChatGPT, Claude, Grok or Google AI.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@600;700;800&display=swap">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="css/findmybiz.css">
 </head>
 <body>
-  <nav class="nav" aria-label="Main navigation"><div class="nav__inner">
-    <a href="index.html" class="nav__logo" style="display:inline-flex;align-items:center;gap:10px;">
-      <img src="icon.png" alt="" style="height:32px;width:auto;" loading="eager">
-      <span style="font-family:Poppins,sans-serif;font-size:20px;font-weight:800;">FindMyBiz</span>
-    </a>
-    <div class="nav__links">
-      <a href="#how" class="nav__link">How it works</a>
-      <a href="#pricing" class="nav__link">Pricing</a>
-      <a href="#faq" class="nav__link">FAQ</a>
-    </div>
-    <a href="waitlist.html" class="nav__cta shiny-cta">Join Waitlist</a>
-  </div></nav>
+  <div class="wrap">
+    <header class="top">
+      <img src="logo.svg" alt="FindMyBiz">
+      <nav>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
 
-  <header class="hero-v2" style="padding:140px 0 80px;">
-    <div class="container">
+    <div class="hero">
       <h1>Get recommended when customers ask AI.</h1>
-      <p>More people now ask ChatGPT, Claude, Grok and Google AI where to eat, get a manicure or book a service. We help small businesses like yours, from restaurants to nail salons, show up in those answers.</p>
-      <a href="waitlist.html" class="nav__cta shiny-cta">Join the waitlist</a>
+      <p>More people now ask ChatGPT, Claude, Grok and Google AI where to eat, get a manicure or book a service. We help small businesses like yours show up in those answers.</p>
+      <a href="waitlist.html" class="btn">Join the waitlist</a>
     </div>
-  </header>
 
-  <section id="how" class="container" style="padding:80px 0;">
-    <h2>How it works</h2>
-    <ol>
-      <li><strong>We check your visibility.</strong> We ask AI assistants the questions your customers ask, such as "best nail salon in Orchard" or "cosy brunch spot near me", and record who gets recommended.</li>
-      <li><strong>We find the gaps.</strong> We show where competitors are named and where you're missing, in plain language.</li>
-      <li><strong>We help you get listed.</strong> We guide your Google Business Profile, menus, reviews and website so AI tools can find and describe you accurately.</li>
-    </ol>
-  </section>
+    <section id="how">
+      <h2>How it works</h2>
+      <p class="lead">Three steps, explained in plain language.</p>
+      <ol class="steps">
+        <li class="card"><span class="num">1</span><h3>We check your visibility</h3><p>We ask AI assistants the questions your customers ask, such as "best nail salon in Orchard", and record who gets recommended.</p></li>
+        <li class="card"><span class="num">2</span><h3>We find the gaps</h3><p>We show where competitors are named and where you're missing, in plain language.</p></li>
+        <li class="card"><span class="num">3</span><h3>We help you get listed</h3><p>We guide your Google Business Profile, menus, reviews and website so AI tools can find and describe you accurately.</p></li>
+      </ol>
+    </section>
 
-  <section id="pricing" class="container" style="padding:80px 0;">
-    <h2>Pricing</h2>
-    <p>Priced for small businesses. Enterprise tools start near $100 a month and agency retainers often start at $1,500. We sit between them.</p>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;">
-      <div style="border:1px solid #ddd;border-radius:12px;padding:24px;">
-        <h3>Snapshot</h3>
-        <p><strong>$149</strong> one-time</p>
-        <ul><li>Check 20 questions your customers ask AI</li><li>Tested across ChatGPT, Claude, Grok and Google AI</li><li>Report showing who is recommended and who isn't</li></ul>
-        <a href="waitlist.html">Join waitlist</a>
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <p class="lead">Priced for small businesses. Enterprise tools start near $100 a month, and agency retainers often start at $1,500. We sit in between.</p>
+      <div class="plans">
+        <div class="card plan featured">
+          <span class="tag">Most popular</span>
+          <h3>Growth</h3>
+          <div class="price">$499<small> / month</small></div>
+          <ul>
+            <li>Monthly tracking of your AI visibility</li>
+            <li>Competitor comparison</li>
+            <li>Prioritised action plan each month</li>
+          </ul>
+          <a href="waitlist.html" class="btn">Join waitlist</a>
+        </div>
+        <div class="card plan">
+          <h3>Managed</h3>
+          <div class="price">From $1,500<small> / month</small></div>
+          <ul>
+            <li>Everything in Growth</li>
+            <li>We carry out the content and listing changes</li>
+            <li>Monthly review call</li>
+          </ul>
+          <a href="waitlist.html" class="btn btn-outline">Join waitlist</a>
+        </div>
       </div>
-      <div style="border:1px solid #ddd;border-radius:12px;padding:24px;">
-        <h3>Growth</h3>
-        <p><strong>$499</strong> per month</p>
-        <ul><li>Monthly tracking of your AI visibility</li><li>Competitor comparison</li><li>Prioritised action plan each month</li></ul>
-        <a href="waitlist.html">Join waitlist</a>
-      </div>
-      <div style="border:1px solid #ddd;border-radius:12px;padding:24px;">
-        <h3>Managed</h3>
-        <p><strong>From $1,500</strong> per month</p>
-        <ul><li>Everything in Growth</li><li>We carry out the content and listing changes</li><li>Monthly review call</li></ul>
-        <a href="waitlist.html">Join waitlist</a>
-      </div>
+      <p class="note">Prices are proposed and may change before launch.</p>
+    </section>
+
+    <section id="faq" class="faq">
+      <h2>FAQ</h2>
+      <p class="lead">Common questions from small business owners.</p>
+      <details open><summary>Do you guarantee a recommendation?</summary><p>No. AI answers vary by user and over time. We show measured results and what changed, rather than promise a ranking.</p></details>
+      <details><summary>Do I need any technical skills?</summary><p>No. We explain each step in plain language and do the work with you.</p></details>
+      <details><summary>Which businesses do you work with?</summary><p>Small local businesses, including restaurants, cafes, nail salons, hair salons, clinics and other service businesses.</p></details>
+    </section>
+
+    <div class="cta">
+      <h2>Be among the first to be recommended.</h2>
+      <p>Join the waitlist for early access.</p>
+      <a href="waitlist.html" class="btn">Join the waitlist</a>
     </div>
-    <p style="margin-top:16px;font-size:0.9em;">Prices are proposed and may change before launch.</p>
-  </section>
 
-  <section id="faq" class="container" style="padding:80px 0;">
-    <h2>FAQ</h2>
-    <p><strong>What is the Snapshot?</strong> A one-time report on how your business appears when customers ask AI assistants for recommendations in your category. You keep the report and there is no obligation to subscribe.</p>
-    <p><strong>Do you guarantee a recommendation?</strong> No. AI answers vary by user and over time. We show measured results and what changed, rather than promise a ranking.</p>
-    <p><strong>Do I need any technical skills?</strong> No. We explain each step in plain language and do the work with you.</p>
-    <p><strong>Which businesses do you work with?</strong> Small local businesses, including restaurants, cafes, nail salons, hair salons, clinics and other service businesses.</p>
-  </section>
-
-  <footer class="footer"><div class="container"><p>&copy; 2026 FindMyBiz</p></div></footer>
-  <script src="js/main.js" defer></script>
+    <footer>&copy; 2026 FindMyBiz. All rights reserved.</footer>
+  </div>
 </body>
 </html>
