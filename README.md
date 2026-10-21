@@ -1,8 +1,8 @@
-# AI SEO Platform
+# OptimizeForAI
 
 Get your business recommended by AI assistants (ChatGPT, Claude, Grok, Google AI).
 
-Working name only; rename in `index.html`, `waitlist.html` and this file.
+Brand name: OptimizeForAI. Update `index.html`, `waitlist.html` and this file if it changes.
 
 ## Structure
 - `index.html` landing page
