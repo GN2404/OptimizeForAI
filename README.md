@@ -1,8 +1,8 @@
-# OptimizeForAI
+# FindMyBiz
 
 Get your business recommended by AI assistants (ChatGPT, Claude, Grok, Google AI).
 
-Brand name: OptimizeForAI. Update `index.html`, `waitlist.html` and this file if it changes.
+Brand name: FindMyBiz. Update `index.html`, `waitlist.html` and this file if it changes.
 
 ## Structure
 - `index.html` landing page
